@@ -69,6 +69,9 @@ nano /etc/group
 wheel::k > add your user to wheel
 
 # identity
+
+https://packages.fedoraproject.org/pkgs/fedora-release/
+
 it has default pkg when upgrading from one release to newer one with distro-sync
 dnf5 swap fedora-release-identity-container fedora-release-identity-basic
 dnf5 swap fedora-release-container fedora-release-workstation
